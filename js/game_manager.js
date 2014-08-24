@@ -68,6 +68,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
+	  
     var value = Math.random() < 0.9 ? 2 : 4;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
@@ -209,7 +210,8 @@ GameManager.prototype.buildTraversals = function (vector) {
 
   for (var pos = 0; pos < this.size; pos++) {
     traversals.x.push(pos);
-    traversals.y.push(pos);
+    if(pos < this.size -1 )
+      traversals.y.push(pos);
   }
 
   // Always traverse from the farthest cell in the chosen direction
