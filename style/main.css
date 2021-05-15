@@ -229,8 +229,8 @@ hr {
   z-index: 2; }
 
 .tile, .tile .tile-inner {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   line-height: 116.25px; }
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
