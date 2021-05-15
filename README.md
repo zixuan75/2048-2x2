@@ -1,4 +1,4 @@
-# 2048 3x3
+# 2048 2x2
 
 [PLAY IT HERE](http://zixuan75.github.io/2048-3x3/).
 A mofdified version of [http://gabrielecirulli.github.io/2048/](http://gabrielecirulli.github.io/2048/).
